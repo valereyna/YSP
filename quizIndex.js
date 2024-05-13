@@ -206,16 +206,16 @@ function showAnswer() {
   for (let i = 0; i < incorrectAnswers.length; i++) {
     incorrectAnswersHtml += `
       <p>
-        <strong>Question:</strong> ${incorrectAnswers[i].question}<br>
-        <strong>Your Answer:</strong> ${incorrectAnswers[i].incorrectAnswer}<br>
-        <strong>Correct Answer:</strong> ${incorrectAnswers[i].correctAnswer}
+        <strong>Pertanyaan:</strong> ${incorrectAnswers[i].question}<br>
+        <strong>Jawabanmu:</strong> ${incorrectAnswers[i].incorrectAnswer}<br>
+        <strong>Jawaban yang benar:</strong> ${incorrectAnswers[i].correctAnswer}
       </p>
     `;
   }
 
   resultContainer.innerHTML = `
-    <p>You scored ${score} out of ${quizData.length}!</p>
-    <p>Incorrect Answers:</p>
+    <p>Kau mendapat ${score} dari ${quizData.length}!</p>
+    <p>Jawaban yang salah:</p>
     ${incorrectAnswersHtml}
   `;
 }
