@@ -196,6 +196,7 @@ h1 {
 
 .hamburger-menu {
   display: block;
+  position: fixed;
 }
 
 /*div.content {margin-left: 0;}*/
