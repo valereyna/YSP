@@ -12,6 +12,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    display:block;
 }
 
 h1 {
@@ -44,6 +47,41 @@ h1 {
 .content {
     margin-left: 250px;
     padding: 20px;
+}
+.homeContent {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  width: 100%;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+
+.homeContainer {
+  width: 100%;
+  margin-right: 10%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #333;
+}
+
+.homeContainer a{
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+}
+
+.homeContainer a:hover {
+  background-color: #0056b3;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the sidebar and the content stack on top of each other */
