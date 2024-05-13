@@ -4,7 +4,7 @@
     width: 100%;
     left: 0;
     top: 0;
-    position: right;
+    position: left;
     z-index: 1000;
 }
 
@@ -140,7 +140,7 @@ h1 {
 .hamburger-menu {
   display: none;
   cursor: pointer;
-  position: left;
+  position: right;
   top: 20px;
   left: 20px;
   z-index: 1001;
