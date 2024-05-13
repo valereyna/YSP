@@ -75,6 +75,11 @@ h2 {
   color: #000000;
 }
 
+.content h1 {
+  padding-top: 40px;
+  transition: margin-left 0.5s;
+}
+
 .homeContent {
 padding-top: 60px;
 padding-bottom: 20px;
