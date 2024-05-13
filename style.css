@@ -75,6 +75,10 @@ h1 {
   border: 2px solid #333;
 }
 
+.homeContent img{
+  width:100%;
+}
+
 .homeContainer a{
   margin-bottom: 10px;
   padding: 10px 20px;
