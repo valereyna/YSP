@@ -38,7 +38,7 @@ h1 {
     top: 60px;
     left: 0;
     background-color: #5e5e5e;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .sidebar a {
@@ -118,12 +118,13 @@ h1 {
     width: 100%;
     height: auto;
     position: relative;
+    padding-top: 80px;
 }
 .sidebar a {float: left;}
 div.content {margin-left: 0;}
 .content {
     margin-left: 250px;
-    padding: 50px;
+    padding: 100px;
   }
 }
 
