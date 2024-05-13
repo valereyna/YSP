@@ -140,8 +140,9 @@ h1 {
 .hamburger-menu {
   display: none;
   cursor: pointer;
-  position: left;
-  top: 20px;
+  position: right;
+  top: 50px;
+  left: 20px;
   z-index: 1001;
   background-color: #2c3f66;
 }
