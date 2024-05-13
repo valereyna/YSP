@@ -151,7 +151,7 @@ h1 {
   width: 25px;
   height: 3px;
   background-color: white;
-  margin: 5px 0;
+  margin: 5px center;
   transition: 0.4s;
 }
 
