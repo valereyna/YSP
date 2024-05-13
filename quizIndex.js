@@ -103,10 +103,10 @@ const quizData = [
 ];
 
 const quizContainer = document.getElementById('quiz');
-const resultContainer = document.getElementById('Hasil');
-const submitButton = document.getElementById('Kumpulkan');
-const retryButton = document.getElementById('Ulang');
-const showAnswerButton = document.getElementById('Tunjukan Jawaban');
+const resultContainer = document.getElementById('result');
+const submitButton = document.getElementById('submit');
+const retryButton = document.getElementById('retry');
+const showAnswerButton = document.getElementById('showAnswer');
 
 let currentQuestion = 0;
 let score = 0;
