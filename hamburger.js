@@ -3,6 +3,11 @@ const sidebar = document.querySelector('.sidebar');
 const bars = document.querySelectorAll('.bar');
 
 hamburgerMenu.addEventListener('click', function() {
-    sidebar.style.width = sidebar.style.width === '250px' ? '0' : '250px';
+    if (sidebar.style.width === '250px') {
+        sidebar.style.width = '0';
+    }
+    else {
+        sidebar.style.width = '100vw'
+    }
     bars.forEach(bar => bar.classList.toggle('change'));
 });
