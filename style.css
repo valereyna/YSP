@@ -165,7 +165,7 @@ h1 {
 /* Responsive layout - when the screen is less than 600px wide, make the sidebar and the content stack on top of each other */
 @media screen and (max-width: 768px) {
 .sidebar {
-    width: 100%;
+    width: 0;
     height: 100vh;
     position: fixed;
     overflow-x: hidden;
@@ -198,7 +198,16 @@ h1 {
 .content {
     margin-left: 0;
     padding-top: 80px;
+    transition: margin-left 0.5s;
   }
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.content.open {
+  margin-left: 250px;
 }
 
 .homeContent {
