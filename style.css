@@ -70,6 +70,14 @@ h1 {
   box-sizing: border-box;
 }
 
+.homeCard {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+  margin: auto;
+  transition: 0.3s;
+  width: 90%;
+}
+
 .homeContainer {
   margin-right: 10%;
   margin-left: 10%;
@@ -77,7 +85,6 @@ h1 {
   padding-top: 10px;
   justify-content: center;
   align-items: center;
-  border: 2px solid #333;
 }
 
 .homeContent img{
@@ -87,6 +94,7 @@ h1 {
 .homeContainer a{
   margin-bottom: 10px;
   padding: 10px 20px;
+  border-radius: 25px;
   text-decoration: none;
   background-color: #007bff;
   color: #fff;
