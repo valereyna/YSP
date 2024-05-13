@@ -150,8 +150,9 @@ h1 {
 .bar {
   width: 25px;
   height: 3px;
+  top: 50%;
   background-color: white;
-  margin: 5px center;
+  margin: 5px 0px;
   transition: 0.4s;
 }
 
