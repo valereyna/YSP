@@ -89,6 +89,20 @@ h1 {
   background-color: #0056b3;
 }
 
+.image-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the sidebar and the content stack on top of each other */
 @media screen and (max-width: 600px) {
     .sidebar {
@@ -140,3 +154,5 @@ h1 {
   .hide{
     display: none;
   }
+
+  
