@@ -47,7 +47,7 @@ h1 {
     overflow-y: auto;
     top: 60px;
     left: 0;
-    background-color: #6984a3;
+    background-color: #2c3f66;
     padding-top: 30px;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 .sidebar a:hover {
-    background-color: #abc4e7;
+    background-color: #4b6285;
 }
 
 .content {
