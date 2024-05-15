@@ -48,9 +48,9 @@ h2 {
 }
 
 img {
-  width: 200px;
-  height: 300px;
-  object-fit: none;
+  width: 600px;
+  height: 600px;
+  object-fit: scale-down;
 }
 
 .sidebar {
