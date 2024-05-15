@@ -41,7 +41,7 @@ const quizData = [
     answer: 'Upaya untuk mendapatkan informasi sensitif dengan menyamar sebagai entitas tepercaya',
   },
   {
-    question: 'What is the chemical symbol for gold? Cara menghindari Phishing termasuk yang mana dari berikut ini?',
+    question: 'Cara menghindari Phishing termasuk yang mana dari berikut ini?',
     options: ['Klik setiap link yang kita terima via email', 
               'Pastikan untuk selalu membagikan informasi pribadi melalui email', 
               'Perhatikan alamat website yang mencurigakan dan jangan pernah klik link yang tidak dikenal', 
