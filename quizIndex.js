@@ -100,6 +100,30 @@ const quizData = [
               'Tidak ada yang spesifik, kita bisa bertindak sebagaimana kita inginkan online'],
     answer: 'Aturan perilaku yang berlaku di dunia digital',
   },
+  {
+    question: 'Apa teknik yang digunakan untuk mendapatkan informasi sensitif dengan menyamar sebagai entitas tepercaya?',
+    options: ['Phishing', 
+              'Hacking', 
+              'Social Engineering', 
+              'Stalking'],
+    answer: 'Phishing',
+  },
+  {
+    question: 'Berita palsu atau disinformasi sering disebut dengan istilah apa?',
+    options: ['Phishing', 
+              'Hacking', 
+              'Social Engineering', 
+              'Hoax'],
+    answer: 'Hoax',
+  },
+  {
+    question: 'Apa istilah Latin yang berarti "sesuatu untuk sesuatu"?',
+    options: ['Veni vidi vici', 
+              'Ad hominem', 
+              'Quid pro quo', 
+              'Acta non verba'],
+    answer: 'Quid pro quo',
+  },
 ];
 
 const quizContainer = document.getElementById('quiz');
